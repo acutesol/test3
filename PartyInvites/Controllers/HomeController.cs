@@ -32,7 +32,7 @@ namespace PartyInvites.Controllers
                 }
 
             }
-            return View("MyView" + rr);
+            return View(rr + "MyView" + rr);
         }
     }
 }
