@@ -24,7 +24,7 @@ namespace PartyInvites.Controllers
             {
                 cnn.Open();
                 SqlCommand cmd = cnn.CreateCommand();
-                cmd.CommandText = "select Count(*) from detailostatok";
+                cmd.CommandText = "SELECT Count(*) FROM DetailOstatok";
                 SqlDataReader sdr = cmd.ExecuteReader();
                 while (sdr.Read())
                 {
